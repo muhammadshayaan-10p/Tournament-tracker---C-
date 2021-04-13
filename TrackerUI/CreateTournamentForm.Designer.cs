@@ -33,7 +33,7 @@ namespace TrackerUI
             this.tournamentNameLabel = new System.Windows.Forms.Label();
             this.tournamentNameValue = new System.Windows.Forms.TextBox();
             this.entryFeesLabel = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.entryFeesValue = new System.Windows.Forms.TextBox();
             this.selectTeamLabel = new System.Windows.Forms.Label();
             this.selectTeamdropdown = new System.Windows.Forms.ComboBox();
             this.addTeamButton = new System.Windows.Forms.Button();
@@ -89,13 +89,13 @@ namespace TrackerUI
             this.entryFeesLabel.Text = "Entry fees:";
             this.entryFeesLabel.Click += new System.EventHandler(this.label1_Click);
             // 
-            // textBox1
+            // entryFeesValue
             // 
-            this.textBox1.Location = new System.Drawing.Point(136, 202);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(182, 27);
-            this.textBox1.TabIndex = 4;
-            this.textBox1.Text = "0";
+            this.entryFeesValue.Location = new System.Drawing.Point(136, 202);
+            this.entryFeesValue.Name = "entryFeesValue";
+            this.entryFeesValue.Size = new System.Drawing.Size(182, 27);
+            this.entryFeesValue.TabIndex = 4;
+            this.entryFeesValue.Text = "0";
             // 
             // selectTeamLabel
             // 
@@ -266,7 +266,7 @@ namespace TrackerUI
             this.Controls.Add(this.addTeamButton);
             this.Controls.Add(this.selectTeamdropdown);
             this.Controls.Add(this.selectTeamLabel);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.entryFeesValue);
             this.Controls.Add(this.entryFeesLabel);
             this.Controls.Add(this.tournamentNameValue);
             this.Controls.Add(this.tournamentNameLabel);
@@ -285,7 +285,7 @@ namespace TrackerUI
         private System.Windows.Forms.Label tournamentNameLabel;
         private System.Windows.Forms.TextBox tournamentNameValue;
         private System.Windows.Forms.Label entryFeesLabel;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox entryFeesValue;
         private System.Windows.Forms.Label selectTeamLabel;
         private System.Windows.Forms.ComboBox selectTeamdropdown;
         private System.Windows.Forms.Button addTeamButton;
